@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(21, 8, 30);
+    transition: background-color 1s ease; /* Transition the background color over 1 second */
+    margin-top: 40px;
+    color: rgb(103, 142, 25); text-align: left;
+    
+  }
+a:visited {
+    color: inherit;
+}
+.endText {
+  font-weight: bold;
+}
+.designation {
+  font-style: italic;
+  font-weight: bold;
+}
+#projectName{
+  font-family: 'Silkscreen';
+}
+h1{
+  margin: 50px;
+  margin-left: 5%;
+  font-size: 35px;
+}
+header {  
+  margin: 8px;
+  margin-top: 8px;
+  background: linear-gradient(to right, rgb(97, 66, 118,.7), rgb(36, 15, 51));
+  color: darkkhaki;
+  margin-bottom: 30px;
+}
+
+
+
+
+.intro{
+  display: flex;
+  margin: 0px;
+  flex-direction: column;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.intro p{
+  margin-left: 5%;
+}
+
+
+
+.project{
+  display: flex;
+  flex-direction: column;
+  background: wheat;
+}
+.projectContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectItem {
+  margin: 8px;
+  border: 2px solid rgb(248, 212, 5);
+  padding: 8px;
+  text-align: center;
+  width: 275px;
+  height: 450px;
+}
+
+.projectItem img {
+  width: 250px;
+  height: 400px;
+}
+
+
+footer{
+  display: flex;
+  background: rgb(168, 168, 168);
+  color: black;
+  margin-bottom: 40px;
+}
+footer .plug{
+  border: 2px solid black;
+  margin: 20px;
+  margin-bottom: 40px;
+}

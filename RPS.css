@@ -1,0 +1,65 @@
+.gameBox{
+    font: 20px/1.5 Silkscreen, sans-serif; 
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    border: 2px solid gold;
+    width: 60%;
+    height: auto;
+    padding: 25px;
+    margin: 200px;
+}
+button#startEnd{
+    font-family: Silkscreen, sans-serif;
+    font-size: larger;
+    background-color: bisque;
+}
+.game{
+    display: flex;
+    margin-top: 50px;
+    margin: 020px;
+}
+#choice{
+    display: flex;
+    flex-direction: column;  
+    margin: 50px;
+    position: static;
+
+}
+button#rock, button#paper, button#scissor{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    margin-left: 25px;
+    width: 75px;
+    height: 30px;
+    background-color: rgb(126, 99, 65);
+    justify-content: center;
+    border-radius: 10px;
+                            }
+button#rock{
+    margin-top: 25px;
+}
+.stateScreen{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-size: medium;
+    flex-direction: column;
+    align-self: center;    
+}
+#win{
+    font-size: x-large;
+    margin: 15px;
+}
+.score{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: small;
+
+
+}
+.action{
+    font-size: x-small;
+    margin-left: 30px;
+}
